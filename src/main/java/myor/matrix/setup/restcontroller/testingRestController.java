@@ -14,7 +14,7 @@ public class testingRestController {
 	@GetMapping(path = "/data")
 	public List<String> getUpdModule() {
 			List<String> result = new ArrayList<String>();
-			result.add("Data Dari Backend");
+			result.add("Data Dari Backend lagi");
 			return result;
 	}
 }
